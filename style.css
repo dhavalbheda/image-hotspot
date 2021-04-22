@@ -1,0 +1,77 @@
+html {
+    overflow: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper {
+    background-color: #ffffff;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.main-image {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: all ease-in-out 1s;
+}
+.hotspot-area {
+    position: absolute;
+    display: block;
+    width: 1794px;
+    height: 768px;
+    margin: 0px;
+    background: transparent;
+    top: 0px;
+}
+.hotspot-button{
+    cursor: pointer;
+    position: absolute;
+    height: 15%;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.infodesk-hotspot {
+    margin: -7% -8.5%;
+}
+.scroll-area {
+    position: absolute;
+    /* background: #ea0000; */
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+.text {
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    background: #ffffffbf;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    span{
+        background: #ffffffbf;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+}
